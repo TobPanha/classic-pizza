@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
+    <!-- Core palette -->
+    <color name="app_background">#F7F6F2</color>
+    <color name="app_surface">#FFFFFF</color>
+    <color name="app_card">#FFFFFF</color>
+    <color name="app_divider">#E2E0D7</color>
+    <color name="app_accent">#C8A951</color>
+    <color name="app_accent_dark">#A98A3E</color>
+    <color name="price_highlight">#C8A951</color>
 
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <!-- Text colors -->
+    <color name="text_primary">#1C1A14</color>
+    <color name="text_secondary">#5E5A54</color>
+    <color name="text_muted">#8B877F</color>
 
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Component helpers -->
+    <color name="chip_unselected_bg">#F1F0EA</color>
+    <color name="chip_unselected_text">#5E5A54</color>
+    <color name="button_primary_text">#101010</color>
+    <color name="nav_icon_unselected">#A19F97</color>
+    <color name="ripple_accent">#33C8A951</color>
+    <color name="ripple_surface">#14000000</color>
 
-    <color name="pink">#ff5ccb</color>
-    <color name="blue">#00f0ff</color>
-
-    <color name="backgroundColor">#FFFcFc</color>
-    <color name="textHeading">#008eff</color>
-    <color name="red">#FF0000</color>
-    <color name="green">#00FF00</color>
-    <color name="primaryColor">#6200EE</color>
-    <color name="primaryLightColor">#BB86FC</color>
-    <color name="primaryDarkColor">#3700B3</color>
-    <color name="accentColor">#03DAC5</color>
-
-
-
+    <!-- Onboarding refresh -->
+    <color name="onboarding_background">#FFFFFF</color>
+    <color name="onboarding_text_primary">#1A1A1A</color>
+    <color name="onboarding_text_secondary">#555555</color>
 </resources>

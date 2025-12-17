@@ -1,15 +1,109 @@
 <resources>
-    <string name="app_name">SomethingForTesting</string>
-    <string name="name">Name</string>
-    <string name="email">Email</string>
-    <string name="sign_in">Sign In</string>
-    <string name="sign_up">Sign Up</string>
+    <string name="app_name">Scentify</string>
+    <string name="onboarding_title">Tell us what you like.</string>
+    <string name="onboarding_fragrance_label">Choose favorite fragrance types</string>
+    <string name="onboarding_occasion_label">When do you wear perfume?</string>
+    <string name="onboarding_brand_label">Preferred brand categories</string>
+    <string name="onboarding_budget_label">Comfortable budget range</string>
+    <string name="onboarding_summary_placeholder">Save a few cues to unlock the right drops.</string>
+    <string name="onboarding_skip">Skip for now</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="home_empty_state">No products match your preferences.</string>
+    <string name="search_hint">Search by name or brand</string>
+    <string name="search_empty_state">No matching scents yet. Try another keyword.</string>
+    <string name="cart_empty_message">You have not saved anything yet.</string>
+    <string name="cart_total_label">Estimated value</string>
+    <string name="cart_clear">Clear saved</string>
+    <string name="cart_checkout">Move to bag</string>
+    <string name="cart_remove">Remove item</string>
+    <string name="cart_added_message">Added to saved items</string>
+    <string name="product_not_found">Product unavailable</string>
+    <string name="product_detail_description">Curated from our catalog based on your preferences. Notes updated regularly.</string>
+    <string name="product_add_to_cart">Save to collection</string>
+    <string name="product_image">Perfume image</string>
+    <string name="product_tags_default">Personalized pick</string>
+    <string name="back">Back</string>
+    <string name="checkout_title">Move saved items</string>
+    <string name="checkout_message">We will keep these products ready for you.</string>
+    <string name="checkout_confirm">Sounds good</string>
+    <string name="checkout_success">Saved list synced. We will remind you soon.</string>
+    <string name="settings_clear_title">Clear preferences</string>
+    <string name="settings_clear_message">Remove saved preferences and start fresh?</string>
+    <string name="settings_clear_confirm">Clear</string>
+    <string name="settings_no_preferences">No preferences saved.</string>
+    <string name="settings_edit_preferences">Edit preferences</string>
+    <string name="settings_clear_preferences">Clear preferences</string>
+    <string name="settings_summary_template">Fragrance: %1$s\nOccasions: %2$s\nBrands: %3$s\nBudget: %4$s</string>
+    <string name="settings_any_budget">Any</string>
+    <string name="settings_not_set">Not set</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_cart">Saved</string>
+    <string name="nav_settings">Settings</string>
+    <string name="cart_empty_message_full">You have not saved anything yet.</string>
+    <string name="search_label">Search</string>
+    <string name="product_tags">Tags</string>
+    <string name="auth_sign_in">Sign in</string>
+    <string name="auth_sign_in_subtitle">Premium scents tailored to you.</string>
+    <string name="auth_email">Email address</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_create_account">Create an account</string>
+    <string name="auth_create_account_cta">Create account</string>
+    <string name="auth_confirm_password">Confirm password</string>
+    <string name="auth_welcome">Create your account</string>
+    <string name="auth_sign_up_subtitle">We will personalize everything for you.</string>
+    <string name="auth_back_to_sign_in">Back to sign in</string>
+    <string name="auth_error_credentials">Invalid email or password.</string>
+    <string name="auth_error_empty_fields">Please fill in all fields.</string>
+    <string name="auth_error_password_match">Passwords do not match.</string>
+    <string name="auth_toast_signed_out">You have been signed out.</string>
+    <string name="home_section_hot">Hot right now</string>
+    <string name="home_section_recommended">Recommended for you</string>
+    <string name="home_section_brands">Top brands</string>
+    <string name="home_promo_title">Exclusive fragrances</string>
+    <string name="home_promo_subtitle">Handpicked for your taste</string>
+    <string name="home_promo_cta">Explore</string>
+    <string name="onboarding_page_one_title">Discover your signature scent</string>
+    <string name="onboarding_page_one_subtitle">Personalized perfume discovery, curated for you.</string>
+    <string name="onboarding_page_three_title">We have curated your experience</string>
+    <string name="onboarding_page_three_body">You can change these selections anytime in settings.</string>
+    <string name="onboarding_start_exploring">Start exploring</string>
+    <string name="onboarding_intro_image">Collection of premium perfume bottles</string>
+    <string name="settings_account_section">Account</string>
+    <string name="settings_email_label">Email</string>
+    <string name="settings_saved_section">Saved items</string>
+    <string name="settings_clear_saved">Clear saved list</string>
+    <string name="settings_clear_saved_message">Remove all saved items?</string>
+    <string name="settings_logout">Log out</string>
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_header_title">You are in control</string>
+    <string name="settings_header_body">Update your account, tune preferences, and clear saved picks whenever you need.</string>
 
-
-    <string name="first_slide">Choose Your Product</string>
-    <string name="second_slide">First delivery</string>
-    <string name="third_slide">Good Service</string>
-    <string name="description">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry standard dummy text ever since the</string>
-
-
+    <string-array name="fragrance_types">
+        <item>Citrus</item>
+        <item>Floral</item>
+        <item>Woody</item>
+        <item>Oriental</item>
+        <item>Fresh</item>
+        <item>Gourmand</item>
+    </string-array>
+    <string-array name="occasion_types">
+        <item>Daily Wear</item>
+        <item>Evening Out</item>
+        <item>Office</item>
+        <item>Special Events</item>
+        <item>Sporty</item>
+    </string-array>
+    <string-array name="brand_categories">
+        <item>Luxury Houses</item>
+        <item>Indie Brands</item>
+        <item>Classic Icons</item>
+        <item>Clean Beauty</item>
+    </string-array>
+    <string-array name="budget_ranges">
+        <item>Under $50</item>
+        <item>$50 - $100</item>
+        <item>$100 - $150</item>
+        <item>$150+</item>
+    </string-array>
 </resources>
