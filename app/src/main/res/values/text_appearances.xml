@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bridge Material Components text appearances to Material3 equivalents -->
+    <style name="TextAppearance.MaterialComponents.BodyLarge" parent="TextAppearance.Material3.BodyLarge" />
+    <style name="TextAppearance.MaterialComponents.BodyMedium" parent="TextAppearance.Material3.BodyMedium" />
+    <style name="TextAppearance.MaterialComponents.BodySmall" parent="TextAppearance.Material3.BodySmall" />
+    <style name="TextAppearance.MaterialComponents.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall" />
+    <style name="TextAppearance.MaterialComponents.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium" />
+
+    <!-- Custom text hierarchy -->
+    <style name="TextAppearance.Scentify.AppTitle" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearance.Scentify.Section" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearance.Scentify.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+    </style>
+
+    <style name="TextAppearance.Scentify.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+    </style>
+</resources>
