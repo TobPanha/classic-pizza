@@ -17,6 +17,7 @@ import com.scentify.app.data.model.Product;
 import com.scentify.app.databinding.ActivityProductDetailBinding;
 import com.scentify.app.viewmodel.ProductDetailViewModel;
 import com.scentify.app.viewmodel.ScentViewModelFactory;
+import com.scentify.app.utils.TagFormatter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -92,7 +93,7 @@ public class ProductDetailActivity extends AppCompatActivity {
         List<String> formatted = new ArrayList<>();
         if (tags != null) {
             for (String tag : tags) {
-                String cleaned = formatTag(tag);
+                String cleaned = TagFormatter.format(tag);
                 if (!cleaned.isEmpty()) {
                     formatted.add(cleaned);
                 }
@@ -104,25 +105,6 @@ public class ProductDetailActivity extends AppCompatActivity {
         for (String label : formatted) {
             binding.chipTags.addView(buildTagChip(label));
         }
-    }
-
-    private String formatTag(String tag) {
-        if (tag == null) {
-            return "";
-        }
-        String cleaned = tag;
-        String[] prefixes = new String[]{"fragrance_", "occasion_", "brand_", "budget_"};
-        for (String prefix : prefixes) {
-            if (cleaned.startsWith(prefix)) {
-                cleaned = cleaned.substring(prefix.length());
-                break;
-            }
-        }
-        cleaned = cleaned.replace("_", " ").trim();
-        if (cleaned.isEmpty()) {
-            return "";
-        }
-        return cleaned.substring(0, 1).toUpperCase() + cleaned.substring(1);
     }
 
     private Chip buildTagChip(String label) {

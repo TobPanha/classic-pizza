@@ -38,6 +38,8 @@ public class ScentViewModelFactory implements ViewModelProvider.Factory {
             return (T) new CartViewModel(repository);
         } else if (modelClass.isAssignableFrom(SettingsViewModel.class)) {
             return (T) new SettingsViewModel(repository);
+        } else if (modelClass.isAssignableFrom(QuizViewModel.class)) {
+            return (T) new QuizViewModel(repository);
         }
         throw new IllegalArgumentException("Unknown ViewModel class: " + modelClass.getName());
     }

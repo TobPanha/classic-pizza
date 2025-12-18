@@ -20,6 +20,7 @@ import com.scentify.app.data.model.Product;
 import com.scentify.app.databinding.FragmentHomeBinding;
 import com.scentify.app.ui.MainActivity;
 import com.scentify.app.ui.product.ProductDetailActivity;
+import com.scentify.app.ui.quiz.QuizActivity;
 import com.scentify.app.viewmodel.HomeViewModel;
 import com.scentify.app.viewmodel.ScentViewModelFactory;
 
@@ -54,6 +55,8 @@ public class HomeFragment extends Fragment implements ProductAdapter.ProductClic
         binding.textUserEmail.setText(email.isEmpty() ? getString(R.string.app_name) : email);
         binding.buttonExplore.setOnClickListener(v -> binding.scrollHome.post(() ->
                 binding.scrollHome.smoothScrollTo(0, binding.recyclerRecommended.getTop())));
+        binding.buttonTakeQuiz.setOnClickListener(v ->
+                startActivity(new Intent(requireContext(), QuizActivity.class)));
         binding.buttonSettingsShortcut.setOnClickListener(v -> {
             if (requireActivity() instanceof MainActivity) {
                 ((MainActivity) requireActivity()).openSettingsFromShortcut();
