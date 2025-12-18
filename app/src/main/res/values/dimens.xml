@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scentify_chip_radius">32dp</dimen>
+    <dimen name="onboarding_page_top_padding">64dp</dimen>
+    <dimen name="screen_content_top_padding">64dp</dimen>
+</resources>
