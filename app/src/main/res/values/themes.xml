@@ -1,9 +1,23 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.SomethingForTesting" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+    <style name="Theme.Scentify" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_accent</item>
+        <item name="colorPrimaryContainer">@color/app_surface</item>
+        <item name="colorSecondary">@color/app_accent</item>
+        <item name="colorSecondaryContainer">@color/app_surface</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorSurfaceVariant">@color/app_surface</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
 
-    <style name="Theme.SomethingForTesting" parent="Base.Theme.SomethingForTesting" />
+    <style name="Theme.Scentify.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/app_accent</item>
+    </style>
 </resources>
