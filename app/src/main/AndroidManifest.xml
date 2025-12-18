@@ -24,6 +24,10 @@
             android:exported="false" />
 
         <activity
+            android:name="com.scentify.app.ui.quiz.QuizActivity"
+            android:exported="false" />
+
+        <activity
             android:name="com.scentify.app.ui.auth.SignUpActivity"
             android:exported="false" />
 

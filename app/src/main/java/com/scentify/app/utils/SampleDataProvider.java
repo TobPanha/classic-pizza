@@ -18,7 +18,7 @@ public final class SampleDataProvider {
                 "Aurora Scents",
                 65.0,
                 "",
-                Arrays.asList("fragrance_citrus", "fragrance_fresh", "occasion_daily", "brand_indie", "budget_50_100")
+                Arrays.asList("fragrance_citrus", "fragrance_fresh", "occasion_daily", "brand_indie", "budget_50_100", "intensity_light")
         ));
         products.add(new Product(
                 "p2",
@@ -26,7 +26,7 @@ public final class SampleDataProvider {
                 "Maison Fleur",
                 120.0,
                 "",
-                Arrays.asList("fragrance_floral", "occasion_evening", "brand_luxury", "budget_100_150")
+                Arrays.asList("fragrance_floral", "occasion_evening", "brand_luxury", "budget_100_150", "intensity_moderate")
         ));
         products.add(new Product(
                 "p3",
@@ -34,7 +34,7 @@ public final class SampleDataProvider {
                 "Nocturne Atelier",
                 180.0,
                 "",
-                Arrays.asList("fragrance_oriental", "occasion_special", "brand_luxury", "budget_150_plus")
+                Arrays.asList("fragrance_oriental", "occasion_special", "brand_luxury", "budget_150_plus", "intensity_strong")
         ));
         products.add(new Product(
                 "p4",
@@ -42,7 +42,7 @@ public final class SampleDataProvider {
                 "Terra Notes",
                 75.0,
                 "",
-                Arrays.asList("fragrance_woody", "occasion_office", "brand_indie", "budget_50_100")
+                Arrays.asList("fragrance_woody", "occasion_office", "brand_indie", "budget_50_100", "intensity_strong")
         ));
         products.add(new Product(
                 "p5",
@@ -50,7 +50,7 @@ public final class SampleDataProvider {
                 "Classic Essence",
                 55.0,
                 "",
-                Arrays.asList("fragrance_floral", "occasion_daily", "brand_classic", "budget_under_50")
+                Arrays.asList("fragrance_floral", "occasion_daily", "brand_classic", "budget_under_50", "intensity_moderate")
         ));
         products.add(new Product(
                 "p6",
@@ -58,7 +58,7 @@ public final class SampleDataProvider {
                 "Eclipse Parfums",
                 95.0,
                 "",
-                Arrays.asList("fragrance_oriental", "occasion_evening", "brand_indie", "budget_50_100")
+                Arrays.asList("fragrance_oriental", "occasion_evening", "brand_indie", "budget_50_100", "intensity_strong")
         ));
         products.add(new Product(
                 "p7",
@@ -66,7 +66,7 @@ public final class SampleDataProvider {
                 "New Coast",
                 48.0,
                 "",
-                Arrays.asList("fragrance_fresh", "occasion_sporty", "brand_clean", "budget_under_50")
+                Arrays.asList("fragrance_fresh", "occasion_sporty", "brand_clean", "budget_under_50", "intensity_light")
         ));
         products.add(new Product(
                 "p8",
@@ -74,7 +74,7 @@ public final class SampleDataProvider {
                 "Metro Blend",
                 82.0,
                 "",
-                Arrays.asList("fragrance_woody", "occasion_office", "brand_clean", "budget_50_100")
+                Arrays.asList("fragrance_woody", "occasion_office", "brand_clean", "budget_50_100", "intensity_moderate")
         ));
         products.add(new Product(
                 "p9",
@@ -82,7 +82,7 @@ public final class SampleDataProvider {
                 "Maison Fleur",
                 140.0,
                 "",
-                Arrays.asList("fragrance_floral", "occasion_special", "brand_luxury", "budget_100_150")
+                Arrays.asList("fragrance_floral", "occasion_special", "brand_luxury", "budget_100_150", "intensity_moderate")
         ));
         products.add(new Product(
                 "p10",
@@ -90,7 +90,7 @@ public final class SampleDataProvider {
                 "Gourmande Lab",
                 90.0,
                 "",
-                Arrays.asList("fragrance_gourmand", "occasion_evening", "brand_indie", "budget_50_100")
+                Arrays.asList("fragrance_gourmand", "occasion_evening", "brand_indie", "budget_50_100", "intensity_strong")
         ));
         products.add(new Product(
                 "p11",
@@ -98,7 +98,7 @@ public final class SampleDataProvider {
                 "Classic Essence",
                 52.0,
                 "",
-                Arrays.asList("fragrance_citrus", "occasion_daily", "brand_classic", "budget_50_100")
+                Arrays.asList("fragrance_citrus", "occasion_daily", "brand_classic", "budget_50_100", "intensity_light")
         ));
         products.add(new Product(
                 "p12",
@@ -106,7 +106,7 @@ public final class SampleDataProvider {
                 "Pure Bloom",
                 60.0,
                 "",
-                Arrays.asList("fragrance_fresh", "occasion_office", "brand_clean", "budget_50_100")
+                Arrays.asList("fragrance_fresh", "occasion_office", "brand_clean", "budget_50_100", "intensity_light")
         ));
         products.add(new Product(
                 "p13",
@@ -114,7 +114,7 @@ public final class SampleDataProvider {
                 "Gourmande Lab",
                 110.0,
                 "",
-                Arrays.asList("fragrance_gourmand", "occasion_special", "brand_indie", "budget_100_150")
+                Arrays.asList("fragrance_gourmand", "occasion_special", "brand_indie", "budget_100_150", "intensity_strong")
         ));
         products.add(new Product(
                 "p14",
@@ -122,7 +122,7 @@ public final class SampleDataProvider {
                 "Nocturne Atelier",
                 160.0,
                 "",
-                Arrays.asList("fragrance_woody", "fragrance_oriental", "occasion_evening", "brand_luxury", "budget_150_plus")
+                Arrays.asList("fragrance_woody", "fragrance_oriental", "occasion_evening", "brand_luxury", "budget_150_plus", "intensity_strong")
         ));
         products.add(new Product(
                 "p15",
@@ -130,7 +130,7 @@ public final class SampleDataProvider {
                 "Aurora Scents",
                 58.0,
                 "",
-                Arrays.asList("fragrance_floral", "occasion_daily", "brand_indie", "budget_50_100")
+                Arrays.asList("fragrance_floral", "occasion_daily", "brand_indie", "budget_50_100", "intensity_moderate")
         ));
         products.add(new Product(
                 "p16",
@@ -138,7 +138,7 @@ public final class SampleDataProvider {
                 "Metro Blend",
                 72.0,
                 "",
-                Arrays.asList("fragrance_fresh", "occasion_sporty", "brand_clean", "budget_50_100")
+                Arrays.asList("fragrance_fresh", "occasion_sporty", "brand_clean", "budget_50_100", "intensity_light")
         ));
         products.add(new Product(
                 "p17",
@@ -146,7 +146,7 @@ public final class SampleDataProvider {
                 "Pure Bloom",
                 68.0,
                 "",
-                Arrays.asList("fragrance_floral", "fragrance_fresh", "occasion_office", "brand_clean", "budget_50_100")
+                Arrays.asList("fragrance_floral", "fragrance_fresh", "occasion_office", "brand_clean", "budget_50_100", "intensity_moderate")
         ));
         products.add(new Product(
                 "p18",
@@ -154,7 +154,7 @@ public final class SampleDataProvider {
                 "Terra Notes",
                 88.0,
                 "",
-                Arrays.asList("fragrance_oriental", "fragrance_gourmand", "occasion_special", "brand_classic", "budget_50_100")
+                Arrays.asList("fragrance_oriental", "fragrance_gourmand", "occasion_special", "brand_classic", "budget_50_100", "intensity_strong")
         ));
         return products;
     }

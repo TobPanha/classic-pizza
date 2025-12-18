@@ -11,6 +11,7 @@ import com.google.android.material.chip.Chip;
 import com.scentify.app.R;
 import com.scentify.app.data.model.Product;
 import com.scentify.app.databinding.ItemProductCardBinding;
+import com.scentify.app.utils.TagFormatter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,7 +81,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
             List<String> formatted = new ArrayList<>();
             if (tags != null) {
                 for (String tag : tags) {
-                    String cleaned = formatTag(tag);
+                    String cleaned = TagFormatter.format(tag);
                     if (!cleaned.isEmpty()) {
                         formatted.add(cleaned);
                     }
@@ -92,25 +93,6 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
             for (String label : formatted) {
                 binding.chipGroupTags.addView(createTagChip(label));
             }
-        }
-
-        private String formatTag(String tag) {
-            if (tag == null) {
-                return "";
-            }
-            String cleaned = tag;
-            String[] prefixes = new String[]{"fragrance_", "occasion_", "brand_", "budget_"};
-            for (String prefix : prefixes) {
-                if (cleaned.startsWith(prefix)) {
-                    cleaned = cleaned.substring(prefix.length());
-                    break;
-                }
-            }
-            cleaned = cleaned.replace("_", " ").trim();
-            if (cleaned.isEmpty()) {
-                return "";
-            }
-            return cleaned.substring(0, 1).toUpperCase() + cleaned.substring(1);
         }
 
         private Chip createTagChip(String label) {
